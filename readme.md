@@ -1,5 +1,7 @@
 # Sequelize querystring converter
 
+[![Build Status](https://travis-ci.com/perbert27/sequelize-querystring-converter.svg?branch=master)](https://travis-ci.com/perbert27/sequelize-querystring-converter)
+
 Convert your query string into sequlize query criteria to filter, sort and paginate your data.
 
 ## Installation
