@@ -73,7 +73,6 @@ Value can be separated by a comma if multiple sort condition is needed (ex: `sor
 #### offset
 
 Type: `string`
-
 default: undefined
 
 An optional parameter to define how many data will be skipped.
@@ -81,7 +80,6 @@ An optional parameter to define how many data will be skipped.
 #### limit
 
 Type: `string`
-
 default: undefined
 
 An optional parameter to define how many data will be displayed.
@@ -89,7 +87,6 @@ An optional parameter to define how many data will be displayed.
 #### basedProperties
 
 Type: `Array<string>`
-
 default: undefined
 
 An optional parameter to define what properties will be used for filtering, sorting and searching.
