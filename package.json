@@ -1,0 +1,30 @@
+{
+  "name": "sequelize-querystring-converter",
+  "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "querystring",
+    "qs",
+    "sequelize",
+    "sort",
+    "filter",
+    "search"
+  ],
+  "engines": {
+    "node": ">=0.6"
+  },
+  "author": "Albert Nakkpil",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
