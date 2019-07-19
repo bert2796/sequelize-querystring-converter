@@ -16,7 +16,8 @@
     "sequelize",
     "sort",
     "filter",
-    "search"
+    "search",
+    "pagination"
   ],
   "engines": {
     "node": ">=0.6"
