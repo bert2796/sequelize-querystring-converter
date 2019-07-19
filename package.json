@@ -1,6 +1,6 @@
 {
   "name": "sequelize-querystring-converter",
-  "description": "This tool allows you to filter, sort and search on your dataset by simply adding some queryparameters on your API.",
+  "description": "Enable filter, sort, paginate and search on your dataset by simply adding some queryparameters on your API.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
