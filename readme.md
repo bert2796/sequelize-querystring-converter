@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/perbert27/sequelize-querystring-converter.svg?branch=master)](https://travis-ci.com/perbert27/sequelize-querystring-converter)
 
-Convert your query string into sequlize query criteria to filter, sort and paginate your data.
+Convert your query string into sequlize query criteria to filter, sort, paginate and search your data.
 
 ## Installation
 
