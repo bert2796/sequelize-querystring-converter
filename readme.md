@@ -20,7 +20,9 @@ yarn add sequelize-querystring-converter
 
 * Pagination using limit and offset query parameters
 * Multi-Column Sort
-* Filtering with operator support (currently supported: and, or, lt, lte, gt, gte, ne, eq, not, between, notBetween, in, notIn, startsWith, endsWith, and substring)
+* Filtering with operator support (currently supported: and, or, gt, gte, lt, lte, ne, between, notBetween, in, notIn, overlap, contains, and contained)
+
+**Note: Complex filtering is not yet supported (ex: Product.findAll({ where: { id: { ['$or']: [ [ 1, 2, 3 ], { ['$gt']: 10 } ] } } }))**
 
 ## Usage
 
@@ -75,6 +77,7 @@ Value can be separated by a comma if multiple sort condition is needed (ex: `sor
 #### offset
 
 Type: `string`
+
 default: undefined
 
 An optional parameter to define how many data will be skipped.
@@ -82,6 +85,7 @@ An optional parameter to define how many data will be skipped.
 #### limit
 
 Type: `string`
+
 default: undefined
 
 An optional parameter to define how many data will be displayed.
